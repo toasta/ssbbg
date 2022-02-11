@@ -1,0 +1,51 @@
+#from https://dataissacred.com/top-50-it-technology-buzzwords-2022-you-must-know/
+Datafication
+Net Neutrality
+Non-Fungible Tokens (NFT)
+Metaverse
+Digital Divide
+Everything As A Service (Xaas)
+Hyper-Personalization
+Gamification
+Wantrepreneur
+Augmented Reality (AR)
+Virtual reality (VR)
+Robotics
+Smart Industry 4.0
+Robotic Process Automation (RPA)
+Neural Networks
+Blockchain
+Technological Unemployment
+Computer Vision
+Distributed Cloud
+Artificial Intelligence (AI)
+The Internet of Behaviors (IOB)
+Hyperautomation
+Extended Reality (XR)
+Quantum Computing
+5G Connectivity
+Voice-as-User Interface (VUI)
+Web3
+Multiexperience
+Apps / Web-App / Native-App / Hybrid-App
+Cloud-Native Platforms (CNPs)
+Big Data
+Internet of Senses
+Platform as a Service (PaaS)
+Chatbots
+Cloud Computing
+Cryptocurrency
+Data Mining
+DevOps (Development Operations)
+MLOps (Machine Learning Development Operations)
+Digitization
+Digital Transformation
+Digital Disruption
+Industry 4.0
+Internet of Things (IoT)
+Machine Learning (ML)
+Voice-as-User Interface (VUI)
+Actionable Analytics
+Microservices
+User Interface (UI) & User Experience (UX)
+Infrastructure as a Service (IaaS)

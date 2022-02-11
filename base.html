@@ -1,0 +1,98 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+	w = {w_json};
+
+</script>
+
+<style>
+.mt { border-collapse: collapse; }
+.mt td 
+{
+	border: solid black 1px;
+	padding: 1em;
+	text-align: center;
+	vertical-align: middle;
+}
+.small
+{
+	font-size: .75em;
+}
+</style>
+
+<div id="res">
+</div>
+
+<script>
+r = document.getElementById('res');
+t = document.createElement('table')
+
+t.classList.add('mt');
+
+d_break=5;
+
+
+t2 = [];
+
+
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
+
+const a = function(t2, t)
+{
+        tr = document.createElement('tr');
+        for(const j of t2)
+        {
+            td = document.createElement('td')
+            td.innerHTML = j
+            tr.append(td)
+        }
+        t.append(tr);
+}
+
+co = 0;
+for(const i of shuffle(w))
+{
+    t2.push(i);
+    co ++;
+    if(co >= d_break)
+    {
+        a(t2, t)
+        t2 = [];
+	co = 0
+    }
+}
+
+if(co)
+{
+        a(t2, t)
+}
+
+
+
+r.append(t)
+</script>
+
+</body>
+</html>
+
